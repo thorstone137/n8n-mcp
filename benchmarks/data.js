@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1754666210523,
+  "lastUpdate": 1758985603473,
   "repoUrl": "https://github.com/thorstone137/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -52,6 +52,58 @@ window.BENCHMARK_DATA = {
             "unit": "ms",
             "range": 0.346,
             "extra": "14856 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5825a85ccc504e36e16bad3437546bfdc1dd4fb5",
+          "message": "Merge pull request #234 from czlonkowski/feat/telemetry-system-clean\n\nfeat: telemetry system refactor with enhanced privacy and reliability (v2.14.1)",
+          "timestamp": "2025-09-26T19:36:19+02:00",
+          "tree_id": "c76f224c253ab6de13fcc92d1774bf09518fe522",
+          "url": "https://github.com/thorstone137/n8n-mcp/commit/5825a85ccc504e36e16bad3437546bfdc1dd4fb5"
+        },
+        "date": 1758985603176,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0194,
+            "range": "0.2149",
+            "unit": "ms",
+            "extra": "51634 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1751,
+            "range": "0.4319000000000002",
+            "unit": "ms",
+            "extra": "315 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0046,
+            "range": "0.2602",
+            "unit": "ms",
+            "extra": "215557 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0655,
+            "range": "0.2793",
+            "unit": "ms",
+            "extra": "15277 ops/sec"
           }
         ]
       }
