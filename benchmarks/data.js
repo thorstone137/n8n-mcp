@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758985603473,
+  "lastUpdate": 1759259504830,
   "repoUrl": "https://github.com/thorstone137/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -104,6 +104,58 @@ window.BENCHMARK_DATA = {
             "range": "0.2793",
             "unit": "ms",
             "extra": "15277 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "56956555+czlonkowski@users.noreply.github.com",
+            "name": "Romuald Członkowski",
+            "username": "czlonkowski"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a1db133a50baa8c60d662e0ebf136776b45a0822",
+          "message": "Merge pull request #241 from czlonkowski/feature/partial-update-enhancements\n\ntest: add 46 tests to improve workflow-diff-engine coverage to 89.51%",
+          "timestamp": "2025-09-30T17:53:02+02:00",
+          "tree_id": "94da5c8c1d270275efc0f035c38fa61d4c2498bf",
+          "url": "https://github.com/thorstone137/n8n-mcp/commit/a1db133a50baa8c60d662e0ebf136776b45a0822"
+        },
+        "date": 1759259504107,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.019,
+            "range": "0.5814",
+            "unit": "ms",
+            "extra": "52580 ops/sec"
+          },
+          {
+            "name": "sample - array sorting - large",
+            "value": 3.1208,
+            "range": "0.8090000000000002",
+            "unit": "ms",
+            "extra": "320 ops/sec"
+          },
+          {
+            "name": "sample - string concatenation",
+            "value": 0.0046,
+            "range": "0.3863",
+            "unit": "ms",
+            "extra": "217750 ops/sec"
+          },
+          {
+            "name": "sample - object creation",
+            "value": 0.0631,
+            "range": "0.3569",
+            "unit": "ms",
+            "extra": "15853 ops/sec"
           }
         ]
       }
